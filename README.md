@@ -1,14 +1,14 @@
-# Embedded Systems Tech Assigment
+# Embedded Systems Tech Assignment
 
-In this assigment we will use a Development board to test your proficiency with HW and IoT connectivity. 
+In this assignment, we will use a development board to test your proficiency with HW and IoT connectivity. 
 
 ## Goal: CTF
-With the ESP32 board you will try to connect to a AWS service and follow a specific Topic via MQTT. Your device should read a message that is continuosly publish every 5 seconds. Such message should be email back as your final step.
+With the ESP32 board, you will try to connect to an MQTT topic in AWS IoT Core. Your goal is to read a message that is being published every 5 seconds.
 
 
 ## Credentials
 
-You will get your custom _keys_ and `thing_name` over email. Then you should use the following:
+You will get your credentials over email. Then you should use the following:
 
 ```
 topic:  "qwic/assignment"
@@ -18,10 +18,10 @@ endpoint: "abbdzu9q7kew3-ats.iot.eu-west-1.amazonaws.com"
 
 
 # Deliverables: 
-The code of your implementation should be send witha Pull Request to this repository. Along with a readme.
+The code of your implementation should be sent with a Pull Request to this repository. Along with a readme.
 
 # Evaluation is based on 
-- Implementation of the excecise.
+- Implementation of the exercise.
 - Language used.
 - General coding skills
 - extras.
